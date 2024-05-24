@@ -9,7 +9,7 @@ class Teacher:
     def get_average_grade(self):
         return sum(self.grades) / len(self.grades)
 
-teacher1 = Teacher("John Doe")
+teacher1 = Teacher("Dr Nouman")
 teacher1.add_grade(80)
 teacher1.add_grade(90)
 teacher1.add_grade(85)
